@@ -1,0 +1,2 @@
+#define MAIN_HEDRON_NAMESPACE_NAME hedron
+#define HEDRON_LOGGER_NAMESPACE_NAME logger

@@ -1,0 +1,84 @@
+using st = std::string; // string_type
+using dat = std::vector; // dynamic_array_type
+using size_t = unsigned;
+
+
+enum IterationMode
+{
+	OFFSET_LENGTH_MODE,
+	BOUND_MODE
+}
+
+-- GET_INFORMATION
+
+void partition
+void reverse_partition
+string extract|substr
+dat<string> split
+dat<string> word
+bool starts_with
+bool ends_with
+bool is_alpha_numeric
+bool is_alphabet
+bool is_decimal
+bool is_digit
+bool is_lower_case
+bool is_upper_case
+bool is_empty
+bool is_capitalized
+bool is_lowerized
+
+-- OPERATION
+
+void clear
+void remove
+void replace
+void set
+void del
+
+void trim_left
+void trim_right
+void trim
+
+void fill_with
+void insert
+char pop_back
+char pop_front
+void push_back
+void push_front
+
+void change_case(function*)
+void swap_case
+void randomize_case
+void capitalize
+void lowerize
+void to_lower_case
+void to_upper_case
+void inc_char
+
+void swap
+void reverse
+void permutate : "Bonjour".permutate(0, 4) => "oonjBur"
+void shuffle
+
+void translate
+
+void resize
+
+
+
+-- RESEARCH
+
+bool contain
+bool match
+size_t first_occurence_of
+size_t last_occurence_of
+size_t occurence_of
+dat<size_t> occurences_of
+size_t find_first_of
+{size_t, char} find_first_not_of
+size_t find_last_of
+{size_t, char} find_last_not_of
+size_t count_occurence_of
+
+
